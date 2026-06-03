@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Harish - Developer Portfolio</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            background-color: rgb(0, 0, 33);
+            color: white;
+            font-family: 'Poppins', sans-serif;
+        }
+
+        nav {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            height: 80px;
+            background-color: rgb(18, 18, 62);
+        }
+
+        .left {
+            font-size: 1.5rem;
+            font-weight: 600;
+        }
+
+        nav ul {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        nav ul li {
+            list-style: none;
+            margin: 0 23px;
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: white;
+            transition: 0.3s;
+        }
+
+        nav ul li a:hover {
+            color: rgb(170, 107, 228);
+            font-size: 1.3rem;
+        }
+
+        .firstSection {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            margin: 100px 0;
+        }
+
+        .firstSection > div {
+            width: 40%;
+        }
+
+        .leftSection {
+            font-size: 2.8rem;
+            font-weight: 700;
+        }
+
+        .purple {
+            color: rgb(170, 107, 228);
+        }
+
+        .rightSection img {
+            width: 80%;
+        }
+
+        section {
+            min-height: 100vh;
+            padding: 80px;
+        }
+
+        h1 {
+            color: rgb(170, 107, 228);
+            margin-bottom: 20px;
+        }
+
+        p {
+            font-size: 1.1rem;
+            line-height: 1.8;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <nav>
+            <div class="left">Harish's Portfolio</div>
+
+            <div class="right">
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contact">Contact Me</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+
+        <section id="home" class="firstSection">
+            <div class="leftSection">
+                Hi, My name is <span class="purple">Harish</span>
+                <div>and I am a passionate Web Developer</div>
+            </div>
+
+            <div class="rightSection">
+                <img src="developers-hd-png-download-removebg-preview.png"
+                    alt="Developer Image">
+            </div>
+        </section>
+
+        <section id="about">
+            <h1>About Me</h1>
+            <p>
+                I am a passionate Web Developer with experience in HTML, CSS,
+                JavaScript and modern web technologies. I love building
+                responsive and user-friendly websites.
+            </p>
+        </section>
+
+        <section id="services">
+            <h1>Services</h1>
+            <p>
+                Website Design, Frontend Development, Responsive Web Design,
+                Portfolio Websites and Landing Pages.
+            </p>
+        </section>
+
+        <section id="projects">
+            <h1>Projects</h1>
+            <p>
+                Portfolio Website, E-commerce Website, Calculator App,
+                Weather App and many more web projects.
+            </p>
+        </section>
+
+        <section id="contact">
+            <h1>Contact Me</h1>
+            <p>
+                Email: harish591@gmail.com.com <br>
+                Phone: +91 8000534087
+                insta: rajora_jii_
+            </p>
+        </section>
+
+    </main>
+
+</body>
+</html>
